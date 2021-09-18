@@ -1,14 +1,13 @@
 from computerVision import vision
 from flask import Flask, render_template, request
-import json
+import os
 
-app = Flask("Cat Vs Dog")
+app = Flask(__name__)
 
 @app.route("/checking",methods = ['POST'])
 def checking():
     f = request.files['imagetocheck']  
     f.save("./computerVision/"+f.filename)
-    print(vision.run_example(f.filename))
     return render_template("change.html", result = vision.run_example(f.filename))  
 
 

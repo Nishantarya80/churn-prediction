@@ -29,4 +29,6 @@ def run_example(image):
     # predict the class
     result = model.predict(img)
 
+    os.remove("./computerVision/"+image)
+
     return result[0]
