@@ -15,7 +15,7 @@
 |BANK TRANSFER | 2|
 |CREDIT CARD | 3|
 
-'''json
+``` json
 {   
     "SeniorCitizen": "0",
     "Partner" : "0",
@@ -37,6 +37,6 @@
     "TotalCharges" : "108.15"
 }
 
-'''
+```
 
 
