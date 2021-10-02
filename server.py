@@ -1,11 +1,11 @@
 from flask import Flask, request,json
 from flask import jsonify
-from pridictionmodel import loadmodel
+from predictionmodel import loadmodel
 
 
 app = Flask(__name__)
 
-@app.route('/pridict', methods =['POST'])
+@app.route('/predict', methods =['POST'])
 def pridict():
     dic = request.json
     li= list(dic.values())
