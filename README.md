@@ -1,5 +1,7 @@
 # CatVSDog
 
+### API endpoint https://customer-churn-prediction01.herokuapp.com/predict
+
 |keys|values|
 |----|------|
 |YES  |1|
