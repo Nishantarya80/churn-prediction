@@ -19,7 +19,7 @@
 {   
     "SeniorCitizen": "0",
     "Partner" : "0",
-	"Dependents": "0",
+    "Dependents": "0",
     "tenure" : "2",
     "PhoneService": "1",
     "MultipleLines": "0",
